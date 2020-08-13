@@ -1,0 +1,129 @@
+/* Output CSS for each student */
+.container {
+  background: gainsboro;
+  padding: 5% 0;
+}
+
+.row {
+  background: white;
+  height: 500px;
+  width: 75%;
+  margin: auto;
+  overflow: scroll;
+}
+
+.student {
+  display: flex;
+  position: relative;
+  padding-bottom: 2%;
+  border-bottom: 1px solid gainsboro;
+}
+
+.student div img {
+  height: auto;
+  width: 60%;
+  border: 1px solid gainsboro;
+  border-radius: 60px;
+  position: relative;
+  left: 1em;
+  top: 1em;
+}
+
+.student div .student-info p {
+  margin: 0;
+  font-size: 10pt;
+  opacity: 0.6;
+}
+/* .student p {
+    margin: 0 0 0 12%;
+} */
+
+p.student-name {
+  font-size: 30pt;
+  font-weight: bold;
+  position: relative;
+  left: -20px;
+  margin: 0 0 1% 0;
+  text-transform: uppercase;
+}
+
+/* CSS for search bar */
+.row #name-input {
+  height: 7%;
+  width: 100%;
+  border: none;
+  border-bottom: gainsboro solid 2px;
+  position: sticky;
+  z-index: 3;
+  top: 0px;
+}
+
+/* CSS styling for input filter searches */
+.row #tag-input {
+  height: 7%;
+  width: 100%;
+  border: none;
+  border-bottom: gainsboro solid 2px;
+  position: sticky;
+  z-index: 2;
+  top: 0px;
+}
+
+.row #tag-input {
+  height: 7%;
+  width: 100%;
+  border: none;
+  border-bottom: gainsboro solid 2px;
+  position: sticky;
+  z-index: 3;
+  top: 38px;
+}
+/* CSS styling for adding a tag */
+.add-tag-input {
+  height: 7%;
+  width: 30%;
+  border: none;
+  border-bottom: gainsboro solid 2px;
+  position: sticky;
+  top: 0px;
+}
+
+/* For div collapse */
+button.expand-btn {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  height: 0;
+  font-size: 40pt;
+  position: absolute;
+  z-index: 1;
+  left: 90%;
+  opacity: 0.4;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* Design for the tags output */
+
+.tag-row {
+  width: auto;
+  display: flex;
+}
+
+span.tag-col {
+  margin: 7px 5px;
+  background-color: gainsboro;
+  padding: 10px 2px;
+  position: relative;
+  border-radius: 3px;
+  opacity: 0.6;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
